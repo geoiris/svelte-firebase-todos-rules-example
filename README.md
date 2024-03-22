@@ -153,7 +153,7 @@ Dans ce store, nous avons ajouté des fonctions pour ajouter et supprimer des em
 
 Attention, a ce stade il faut bien comprendre que sur la console firebase vous avez activé la règle de sécurité qui permet de lire et écrire dans la collection `authorizedUsers` seulement si l'utilisateur est authentifié. Il faut donc alimenter cette collection avec au moins un email autorisé pour pouvoir accéder à l'application. Vous pouvez faire le test de lancer l'applications sans email autorisé, vous verrez que vous n'aurez pas accès à la liste des todos. Vous pouvez aussi ajouter un autre email que le votre et constater le même résultat.
 
-Dans la console firebase j'ai ajouté un utilisateurs toto pour vérifier que l'accès est bien restreint :
+Dans la console firebase j'ai ajouté un utilisateur toto pour vérifier que l'accès est bien restreint :
 ![alt text](./img/image.png)
 
 Ajoutez donc votre email dans la collection `authorizedUsers` pour pouvoir accéder à l'application.
